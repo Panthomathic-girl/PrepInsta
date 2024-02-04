@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: black;
+}
+.container{
+    height: 140px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.logo-container{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    justify-content: center;
+ }
+
+ .logo-text{
+    margin-left:-0.5rem;
+    font-size: 28px;
+    padding-top: 15%;
+    
+ }
+
+ .nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4em;
+ }
+
+  .nav-items div{
+    font-size: 20px;
+    font-weight:  500;
+    
+  }
+
+  .nav-items div a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-items div:hover{
+    cursor: pointer;
+    font-weight: bold;
+    transition:0.8s;
+  }
+
+  .linusSir_Pic{
+    margin-left: 30%;
+    padding-top: 1.5%;
+  }
+
+.fig_cap_img1{
+    color: white;
+    padding-top: 0.5%;
+    padding-left: 19%;
+}
+
+.written_part{
+    color: white;
+    margin-bottom: 3%;
+}
+
+.inside_written_part{
+    margin-bottom: 0.5%;
+}
+
+.innerOfIWP{
+    margin: 0.5%;
+}
+
+aside{
+    float:right;
+    width: 25%;
+    background-color: rgb(17, 170, 93);
+    margin-top: -2rem;
+  }
+
